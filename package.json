@@ -1,0 +1,17 @@
+{
+  "name": "f.lux-icue-sync",
+  "version": "0.1.0",
+  "description": "f.lux synchronization with all Corsair iCUE compatible devices",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": "https://github.com/Leafgard/f.lux-icue-sync.git",
+  "author": "Yann SEGET <dev@leafgard.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "cue-sdk": "^1.6.0",
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0"
+  }
+}
