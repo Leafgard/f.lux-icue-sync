@@ -22,7 +22,7 @@ module.exports = function colorTemperatureToRGB(kelvin){
     return {
         r : Math.floor(red),
         g : Math.floor(green),
-        b :Math.floor(blue)
+        b : Math.floor(blue)
     }
 }
 
